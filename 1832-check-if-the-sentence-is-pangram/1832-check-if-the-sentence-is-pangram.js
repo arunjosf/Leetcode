@@ -3,5 +3,7 @@
  * @return {boolean}
  */
 var checkIfPangram = function(sentence) {
-   return new Set(sentence).size === 26;
+   if (new Set(sentence).size === 26){
+    return true;
+   } return false
 };
